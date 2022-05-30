@@ -2,6 +2,22 @@ import { Request, Response, NextFunction } from "express";
 import { customerService } from "@src/services/customers.service";
 import { Customer } from "@src/types/models.interface";
 
+const createCustomer = async (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
+  try {
+    const customerData = req.body;
+    const newCustomer: Customer = await customerService.createCustomer(
+      customerData,
+    );
+    res.status(201).json({ data: newCustomer, success: true });
+  } catch (error) {
+    next(error);
+  }
+};
+
 const getCustomerById = async (
   req: Request,
   res: Response,
@@ -35,4 +51,5 @@ const getCustomers = async (
 export const customersController = {
   getCustomers,
   getCustomerById,
+  createCustomer,
 };

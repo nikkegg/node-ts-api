@@ -9,3 +9,4 @@ customerRouter.get(
   `${path}/:customerId(${uuidParamRouterMatch})`,
   customersController.getCustomerById,
 );
+customerRouter.post(path, customersController.createCustomer);

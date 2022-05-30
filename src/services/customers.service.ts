@@ -2,6 +2,11 @@ import { DB } from "@src/db";
 import { Customer } from "@src/types/models.interface";
 import { HttpError } from "@src/errors/HttpError";
 
+const createCustomer = async (payload) => {
+  const newCustomer: Customer = await DB.Customers.create({ ...payload });
+  return newCustomer;
+};
+
 const findCustomerById = async (id: string): Promise<Customer> => {
   const customer: Customer | null = await DB.Customers.findByPk(id);
 
