@@ -7,6 +7,7 @@ import morgan from "morgan";
 import hpp from "hpp";
 import { stream } from "@src/utils/logger";
 import express, { Application } from "express";
+import { errorMiddleware } from "@src/middlewares/error.middleware";
 
 export const expressLoader = async (app: Application) => {
   // Logging
@@ -32,6 +33,7 @@ export const expressLoader = async (app: Application) => {
   app.use(cookieParser());
 
   // Error handling, could do with some error reporting
+  app.use(errorMiddleware);
 
   return app;
 };

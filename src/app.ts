@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import { routes } from "@src/routes/routes";
 import { init } from "@src/loaders/loader.index";
+import { logger } from "@src/utils/logger";
 
 const initApp = async () => {
   const app: Application = express();
@@ -20,10 +21,10 @@ const startApp = async () => {
   if (env !== "test") {
     app.listen(port, () => {
       if (env !== "test") {
-        console.log(`=================================`);
-        console.log(`======= ENV: ${env} =======`);
-        console.log(`Server listening on the port ${port}`);
-        console.log(`=================================`);
+        logger.info(`=================================`);
+        logger.info(`======= ENV: ${env} =======`);
+        logger.info(`Server listening on the port ${port}`);
+        logger.info(`=================================`);
       }
     });
   }

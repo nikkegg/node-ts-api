@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/nikvisenko/node-ts-api/src/logs/db/.b15de63fb407ba0b75df246dae453d7bf36f594d-audit.json",
+    "files": [
+        {
+            "date": 1653932651337,
+            "name": "/Users/nikvisenko/node-ts-api/src/logs/db/2022-05-30.log",
+            "hash": "15ed356cf5b477fb3a470e008b173b00"
+        }
+    ],
+    "hashType": "md5"
+}
