@@ -1,5 +1,14 @@
 import express, { Application } from "express";
 import { routes } from "@src/routes/routes";
+import { init } from "@src/loaders/loader.index";
+
+const initApp = async () => {
+  const app: Application = express();
+  await init(app);
+  // Routes
+  routes.forEach((r) => app.use("/", r));
+  return app;
+};
 
 const startApp = async () => {
   const app: Application = express();
@@ -20,6 +29,6 @@ const startApp = async () => {
   }
 };
 
-export const App = { startApp };
+export const App = { initApp, startApp };
 
 App.startApp();
