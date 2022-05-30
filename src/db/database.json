@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "sequelize",
+    "host": "customers.db",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "sequelize",
+    "host": "customers_test.db",
+    "dialect": "sqlite"
+  }
+}

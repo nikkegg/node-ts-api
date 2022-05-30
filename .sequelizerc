@@ -1,0 +1,10 @@
+// Tell sequelize where to store/lookup migration and use database.json instead of default config file
+const { application } = require("express");
+const path = require("path");
+
+module.exports = {
+  config: path.resolve("src", "db/database.json"),
+  "models-path": path.resolve("src", "models"),
+  "seeders-path": path.resolve("src", "seeders"),
+  "migrations-path": path.resolve("src", "migrations"),
+};
