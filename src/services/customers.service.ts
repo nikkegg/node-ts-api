@@ -1,8 +1,9 @@
 import { DB } from "@src/db";
 import { Customer } from "@src/types/models.interface";
 import { HttpError } from "@src/errors/HttpError";
+import { CreateCustomerDto } from "@src/validators/createCustomer.validator";
 
-const createCustomer = async (payload) => {
+const createCustomer = async (payload: CreateCustomerDto) => {
   const newCustomer: Customer = await DB.Customers.create({ ...payload });
   return newCustomer;
 };
@@ -18,6 +19,7 @@ const findAllCustomers = async (): Promise<Customer[]> =>
   DB.Customers.findAll({ order: [["email", "ASC"]] });
 
 export const customerService = {
+  createCustomer,
   findAllCustomers,
   findCustomerById,
 };

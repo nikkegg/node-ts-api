@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { customerService } from "@src/services/customers.service";
 import { Customer } from "@src/types/models.interface";
+import { CreateCustomerDto } from "@src/validators/createCustomer.validator";
 
 const createCustomer = async (
   req: Request,
@@ -8,7 +9,7 @@ const createCustomer = async (
   next: NextFunction,
 ) => {
   try {
-    const customerData = req.body;
+    const customerData: CreateCustomerDto = req.body;
     const newCustomer: Customer = await customerService.createCustomer(
       customerData,
     );
