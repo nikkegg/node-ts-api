@@ -101,3 +101,40 @@ describe("GET /customers/:customerId/orders/:orderId", () => {
     });
   });
 });
+
+describe("POST /orders", () => {
+  it("creates and order for a customer", async () => {
+    const customer: CustomerInstance = await DB.Customers.create({
+      givenName: "Agent",
+      familyName: "Smith",
+      email: "evil@matrix.com",
+    });
+
+    const customerId = customer.getDataValue("id");
+    const payload = {
+      customerId,
+    };
+
+    const app = supertest(await App.initApp());
+    await app
+      .post(`/orders`)
+      .send(payload)
+      .expect(201)
+      .then(async (response) => {
+        expect(response.body.data.customerId).toBe(payload.customerId);
+        expect(response.body.success).toBe(true);
+        const order: OrderInstance | null = await DB.Orders.findByPk(
+          response.body.id,
+        );
+
+        if (order) {
+          expect(response.body.data.id).toBe(order.getDataValue("customerId"));
+        }
+      });
+  });
+});
+
+it("returns 404 if param is not uuid", async () => {
+  const app = supertest(await App.initApp());
+  await app.get(`/customers/not-an-uuid/orders/als-not-and-uuid`).expect(404);
+});
