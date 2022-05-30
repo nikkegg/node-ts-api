@@ -1,0 +1,653 @@
+2022-05-30 20:30:16 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:03 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:23 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:44 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:49 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:49 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:49 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:49 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:49 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:49 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:49 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:49 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:31:50 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'a8fde704-de6d-4d1b-ab4d-de4517ecc84d';
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:31:50 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:50 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:31:50 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:31:50 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:31:51 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:51 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:51 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:31:51 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:21 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:32:24 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '37b847fa-b714-458c-963e-9f4bafdafa21';
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:32:24 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:32:24 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:32:24 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:32:25 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:25 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:25 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:25 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:32:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:33:19 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:33:24 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:33:31 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:33:57 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:34:25 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:34:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:35:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:35:22 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:35:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:35:48 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:35:53 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:37:44 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:37:53 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:37:58 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:38:06 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:38:10 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = 'b2b6ec9d-004f-45d2-90b4-86b752bbad42';
+2022-05-30 20:38:14 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '123';
+2022-05-30 20:38:36 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:38:53 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = 'ca48570d-6265-453a-b9da-ca9bc982bfee';
+2022-05-30 20:40:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:40:18 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '6c2f0240-cf7a-4270-890b-e7e6f49f5664';
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:40:18 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:19 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:19 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:19 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:19 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:40:19 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:40:19 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:40:19 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:40:19 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:54 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:41:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '8ad0e161-ab07-4714-a3c8-0bcfdef3639e';
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:41:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:41:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:41:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:41:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:42:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:42:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:42:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:42:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:42:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:49:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:49:28 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:49:33 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:49:56 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:02 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:11 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:30 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:38 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'a81b615f-7818-4a39-a26c-025f60a793dd';
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:50:38 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:38 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:38 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:38 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:39 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:39 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:39 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:39 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:39 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:40 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:40 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,strftime('%d-%m-%Y', 'now'));
+2022-05-30 20:50:40 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:40 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = '6ac20718-8a49-43f8-b5e1-71f1c5e0c666';
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:40 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:50:40 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:40 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`id` = '76bc2ca3-c76c-45e2-b3b9-32e98d923ff4' AND `Order`.`customer_id` = 'd2933e67-13a5-4959-a348-ef56f361d1ad';
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:40 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:50:40 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:50:40 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'd32dc4e5-5fe8-4967-818e-4d743af64d74';
+2022-05-30 20:50:40 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:50:40 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:50:40 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:14 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,strftime('%d-%m-%Y', 'now'));
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = '89111162-781d-455b-abbd-aaa063b44d6d';
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`id` = '995e3070-8a8b-49eb-b39f-620625e68174' AND `Order`.`customer_id` = 'ae6070c3-96f6-4dd4-bed4-ff39c2757a88';
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '3ba52b7e-41d3-4105-b227-dadcf73041d3';
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:17 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:17 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:17 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:17 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:17 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'f68e8290-e7c1-4262-bb84-75210e04f069';
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:51:18 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:51:18 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:51:18 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:18 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:51:19 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,strftime('%d-%m-%Y', 'now'));
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = '75a17fbb-0145-41a8-b748-330c2212d160';
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`id` = '7d91c866-1c98-42c0-835b-aa989f21cf49' AND `Order`.`customer_id` = 'f347eb89-2edb-4a50-9678-5a5a39b85b36';
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'e24d7956-ecc5-4382-aa78-2f566fa4b999';
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'ade3a73e-0a3e-4301-bbae-e45f90175a82';
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:52:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:01 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:01 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:01 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:01 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:01 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:01 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:34 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:43 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,strftime('%d-%m-%Y', 'now'));
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = 'bffdc819-cf4b-45a9-9595-1803147c94ae';
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`id` = 'fd8d3c3b-684d-47e7-a853-26b207ab334a' AND `Order`.`customer_id` = '8f631dea-a19d-4865-af36-7df30ee41a29';
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '10d62823-34cf-4805-8a48-78f3315edf58';
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'd7663395-c23d-4f32-8971-259bc50252ab';
+2022-05-30 20:52:59 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:52:59 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:52:59 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:52:59 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'fd3d5b3e-3123-40ba-bb9a-31a1e7eb4a52';
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:53:00 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:00 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:00 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:00 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:01 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:34 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:41 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:45 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` ORDER BY `Customer`.`email` ASC;
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'ee02da7f-c1b6-425b-a049-577490f97269';
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`email` = 'evil@matrix.com';
+2022-05-30 20:53:45 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:45 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:45 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:45 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,strftime('%d-%m-%Y', 'now'));
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`customer_id` = 'c1adb848-8cc3-4865-87f6-50dbb347d96b';
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): SELECT `id`, `customer_id` AS `customerId`, `date`, `customer_id` AS `CustomerId` FROM `orders` AS `Order` WHERE `Order`.`id` = '3de87dda-7e8f-49fa-b064-3834b5f26003' AND `Order`.`customer_id` = 'a1be591e-df96-4f91-8998-72e20cee4c19';
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '24524e9f-8ded-4d24-9e79-44504cd3884c';
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `customers` (`id`,`email`,`given_name`,`family_name`) VALUES ($1,$2,$3,$4);
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = '139ab147-3f0f-4a97-8fe6-13ffdd889fc4';
+2022-05-30 20:53:46 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:46 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 0
+2022-05-30 20:53:46 info: Executing (default): DELETE FROM `customers`
+2022-05-30 20:53:46 info: Executing (default): PRAGMA foreign_keys = 1
+2022-05-30 20:53:47 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:47 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:47 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:47 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 20:53:54 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 21:02:14 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 21:04:36 info: Executing (default): SELECT 1+1 AS result
+2022-05-30 21:09:57 info: Executing (default): SELECT `id`, `email`, `given_name` AS `givenName`, `family_name` AS `familyName` FROM `customers` AS `Customer` WHERE `Customer`.`id` = 'ca48570d-6265-453a-b9da-ca9bc982bfee';
+2022-05-30 21:09:57 info: Executing (default): INSERT INTO `orders` (`id`,`customer_id`,`date`) VALUES ($1,$2,$3);

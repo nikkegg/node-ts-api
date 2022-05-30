@@ -13,7 +13,7 @@ const initApp = async () => {
 
 const startApp = async () => {
   const app = await initApp();
-  const port = 3000;
+  const port = process.env.PORT || 3000;
   const env = process.env.NODE_ENV || "development";
   // Start the server
   if (env !== "test") {
