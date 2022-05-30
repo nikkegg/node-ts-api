@@ -10,6 +10,22 @@ afterEach(() => {
 afterAll(async () => DB.close());
 
 describe("customerService", () => {
+  it("findCustomerById responds with customers data", async () => {
+    customerService.findCustomerById = jest.fn().mockReturnValue({
+      id: "1",
+      email: "lemon@email.com",
+      givenName: "A",
+      familyName: "Citrus",
+    });
+    const app = supertest(await App.initApp());
+    app
+      .get("/customers/1")
+      .expect(200)
+      .then((response) => {
+        expect(response.body.data.id).toBe("1");
+      });
+  });
+
   it("findAllCustomers responds with customers data", async () => {
     customerService.findAllCustomers = jest.fn().mockReturnValue([
       {
