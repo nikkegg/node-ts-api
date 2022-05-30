@@ -12,17 +12,19 @@ afterAll(async () => DB.close());
 describe("customerService", () => {
   it("findCustomerById responds with customers data", async () => {
     customerService.findCustomerById = jest.fn().mockReturnValue({
-      id: "1",
+      id: "ca48570d-6265-453a-b9da-ca9bc982bfee",
       email: "lemon@email.com",
       givenName: "A",
       familyName: "Citrus",
     });
     const app = supertest(await App.initApp());
     app
-      .get("/customers/1")
+      .get("/customers/ca48570d-6265-453a-b9da-ca9bc982bfee")
       .expect(200)
       .then((response) => {
-        expect(response.body.data.id).toBe("1");
+        expect(response.body.data.id).toBe(
+          "ca48570d-6265-453a-b9da-ca9bc982bfee",
+        );
       });
   });
 
