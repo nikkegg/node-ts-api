@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { customerService } from "@src/services/customers.service";
 import { Customer } from "@src/types/models.interface";
 import { CreateCustomerDto } from "@src/validators/createCustomer.validator";
+import { validationResult } from "express-validator";
 
 const createCustomer = async (
   req: Request,
@@ -9,6 +10,13 @@ const createCustomer = async (
   next: NextFunction,
 ) => {
   try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      res.status(400).json({
+        errors: errors.array(),
+      });
+      return;
+    }
     const customerData: CreateCustomerDto = req.body;
     const newCustomer: Customer = await customerService.createCustomer(
       customerData,

@@ -3,7 +3,9 @@ import { Customer } from "@src/types/models.interface";
 import { HttpError } from "@src/errors/HttpError";
 import { CreateCustomerDto } from "@src/validators/createCustomer.validator";
 
-const createCustomer = async (payload: CreateCustomerDto) => {
+const createCustomer = async (
+  payload: CreateCustomerDto,
+): Promise<Customer> => {
   const newCustomer: Customer = await DB.Customers.create({ ...payload });
   return newCustomer;
 };

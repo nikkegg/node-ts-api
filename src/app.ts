@@ -12,11 +12,9 @@ const initApp = async () => {
 };
 
 const startApp = async () => {
-  const app: Application = express();
-  const port = 8080;
+  const app = await initApp();
+  const port = 3000;
   const env = process.env.NODE_ENV || "development";
-  // Routes
-  routes.forEach((r) => app.use("/", r));
   // Start the server
   if (env !== "test") {
     app.listen(port, () => {
