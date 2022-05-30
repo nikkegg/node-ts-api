@@ -32,7 +32,7 @@ describe("customerService", () => {
       },
     ]);
     const app = supertest(await App.initApp());
-    app
+    await app
       .get("/customers")
       .expect(200)
       .then((response) => {
