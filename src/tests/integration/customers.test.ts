@@ -115,7 +115,7 @@ describe("GET /customers/:id", () => {
           const errors = [
             {
               value: "Smith1122",
-              msg: "Please use alpha characters only",
+              msg: "Please use alphabetic characters only",
               param: "familyName",
               location: "body",
             },

@@ -32,7 +32,7 @@ const schema: Schema = {
     custom: {
       options: (value) => isStrictlyAlphabetic(value),
       bail: true,
-      errorMessage: "Please use alpha characters only",
+      errorMessage: "Please use alphabetic characters only",
     },
   },
   givenName: {
