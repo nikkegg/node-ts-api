@@ -15,7 +15,7 @@ const createOrder = async (req: Request, res: Response, next: NextFunction) => {
     }
     const orderData: CreateOrderDto = req.body;
     const newOrder: Order = await orderService.createOrder(orderData);
-    res.status(201).json({ data: newOrder, message: "created" });
+    res.status(201).json({ data: newOrder, success: true });
   } catch (error) {
     next(error);
   }
@@ -28,7 +28,7 @@ const getOrder = async (req: Request, res: Response, next: NextFunction) => {
       customerId,
       orderId,
     );
-    res.status(200).json({ data: order, message: "findOne" });
+    res.status(200).json({ data: order, success: true });
   } catch (error) {
     next(error);
   }
@@ -38,7 +38,7 @@ const getOrders = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { customerId } = req.params;
     const orders: Order[] = await orderService.findAllOrders(customerId);
-    res.status(200).json({ data: orders, message: "findAll" });
+    res.status(200).json({ data: orders, success: true });
   } catch (error) {
     next(error);
   }
