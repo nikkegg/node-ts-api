@@ -39,4 +39,4 @@ All ids are matched on uuid type, so you need to pass correct values. To get the
 
 ## TODO
 
-A lot. Model tests are missing, service tests for orders are missing. Factory could be used instead of sequelize methods to insert data, or even better, a mock. DB is missing constraints, e.g it would be more reliable to add unique constraint on email and catch db errors rather than querying for email to check existence of a customer before inserting a new one. Services could do with better logging, ```GET /customers``` could do with pagination.
+A lot. Model tests are missing, service tests for orders are missing. Factory could be used instead of sequelize methods to insert data, or even better, a mock. DB is missing constraints, e.g it would be more reliable to add unique constraint on email and catch db errors rather than querying for email to check existence of a customer before inserting a new one. Services could do with better logging, ```GET /customers``` could do with pagination. Test db needs it own schema sequelize schema.
